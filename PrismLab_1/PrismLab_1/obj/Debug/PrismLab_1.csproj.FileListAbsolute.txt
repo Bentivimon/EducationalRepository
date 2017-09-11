@@ -31,3 +31,5 @@ F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\P
 F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\obj\Debug\PrismLab_1.csproj.CoreCompileInputs.cache
 F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\obj\Debug\PrismLab_1.exe
 F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\obj\Debug\PrismLab_1.pdb
+F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\bin\Debug\Newtonsoft.Json.dll
+F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\bin\Debug\Newtonsoft.Json.xml

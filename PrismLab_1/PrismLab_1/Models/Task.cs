@@ -10,5 +10,6 @@ namespace PrismLab_1.Model
     {
         public String Question { get; set; }
         public String Answer { get; set; }
+        public Boolean Asked { get; set; }
     }
 }
