@@ -10,5 +10,7 @@ namespace PrismLab_1.Abstractions
     public interface IAnswerCheckManager
     {
         Boolean CheckAnswer(String correctAnswer, String userAnswer);
+        String CodingWord(String word);
+        Object[] CheckLetter(Char letter, String answer, String codeWord);
     }
 }

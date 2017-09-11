@@ -18,5 +18,57 @@ namespace PrismLab_1.Managers
             else
                 return false;
         }
+
+        public String CodingWord(string word)
+        {
+            String codeWord = "";
+            foreach (var letter in word)
+                codeWord += "*";
+            return codeWord;
+        }
+
+
+        public object[] CheckLetter(char letter, string answer, string codeWord)
+        {
+            int countOfRightLetter = 0;
+            bool checkForFindLetterLater = false;
+            string newCodeWord = "";
+            letter = Char.ToLower(letter);
+
+            foreach (var laterLetter in codeWord)
+            {
+                var laterLetterLower = Char.ToLower(laterLetter);
+                if (laterLetterLower == letter)
+                {
+                    checkForFindLetterLater = true;
+                    break;
+                }
+            }
+            if (checkForFindLetterLater)
+                return new object[] { codeWord, countOfRightLetter };
+
+            foreach(var ansLetter in answer)
+            {
+                var ansLetterLow = Char.ToLower(ansLetter);
+                if (ansLetterLow == letter)
+                {
+                    newCodeWord += ansLetter;
+                    countOfRightLetter++;
+                }
+                else
+                    newCodeWord += "*";
+            }
+            string finalCodeWord = "";
+            for(int i =0; i < codeWord.Length; i++)
+            {
+                if (codeWord[i] == '*' && newCodeWord[i] != '*')
+                    finalCodeWord += newCodeWord[i];
+                else 
+                    finalCodeWord += codeWord[i];
+
+            }
+            object[] arrayOfObj = { finalCodeWord, countOfRightLetter };
+            return arrayOfObj;
+        }
     }
 }
