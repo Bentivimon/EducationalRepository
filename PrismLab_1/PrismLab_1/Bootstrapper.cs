@@ -22,6 +22,8 @@ namespace PrismLab_1
         {
             base.ConfigureContainer();
             this.Container.RegisterType<IAnswerCheckManager, AnswerCheckManager>();
+            Container.RegisterTypeForNavigation<MainWindow>();
+            Container.RegisterTypeForNavigation<ExitWindow>();
         }
     }
 }
