@@ -69,6 +69,7 @@ namespace PrismLab_1.ViewModels
             _regionManager = regionManager;
             SetQuestion();
             UserScore = 0;
+            _userScore = 0;
         }
 
         private void WindowsClosing()
