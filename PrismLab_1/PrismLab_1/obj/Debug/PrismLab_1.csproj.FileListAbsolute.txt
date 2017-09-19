@@ -1,7 +1,6 @@
 E:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\obj\Debug\PrismLab_1.csprojResolveAssemblyReference.cache
 E:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\obj\Debug\App.g.cs
 E:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\obj\Debug\PrismLab_1_MarkupCompile.cache
-F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\obj\Debug\PrismLab_1.csprojResolveAssemblyReference.cache
 F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\obj\Debug\App.g.cs
 F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\obj\Debug\PrismLab_1_MarkupCompile.cache
 F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\bin\Debug\PrismLab_1.exe.config
@@ -33,5 +32,3 @@ F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\P
 F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\obj\Debug\PrismLab_1.pdb
 F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\bin\Debug\Newtonsoft.Json.dll
 F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\bin\Debug\Newtonsoft.Json.xml
-F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\obj\Debug\Views\ExitWindow.baml
-F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\PrismLab_1\obj\Debug\Views\ExitWindow.g.cs

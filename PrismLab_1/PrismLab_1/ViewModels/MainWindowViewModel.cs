@@ -63,20 +63,20 @@ namespace PrismLab_1.ViewModels
             PotentialLetter = ' ';
             BtnAnswerCommand = new DelegateCommand(CheckAnswer);
             CheckLetterCommand = new DelegateCommand(CheckLetter);
-            CloseCommand = new DelegateCommand(WindowsClosing);
+            //CloseCommand = new DelegateCommand(WindowsClosing);
             GetQuestions();
             _questionNumber = -1;
             _regionManager = regionManager;
             SetQuestion();
             UserScore = 0;
-            _userScore = 0;
+            
         }
 
-        private void WindowsClosing()
-        {
-            //_regionManager.RequestNavigate("ContentRegion", "ExitWindow", NavigationComplete);
-           
-        }
+        //private void WindowsClosing()
+        //{
+        //    ExitWindow ex = new ExitWindow();
+        //    ex.Show();
+        //}
 
         //private void NavigationComplete(NavigationResult result)
         //{
@@ -92,9 +92,7 @@ namespace PrismLab_1.ViewModels
                 return;
             }
             Question = ListOfTasks[_questionNumber].Question;
-            CodeAnswer = "";
-            foreach (var letter in ListOfTasks[_questionNumber].Answer)
-                CodeAnswer += "*";
+            CodeAnswer = _answerCheckManager.CodingWord(ListOfTasks[_questionNumber].Answer);
         }
 
         private void GetQuestions()

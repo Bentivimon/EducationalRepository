@@ -1,0 +1,2 @@
+F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\AppTests\obj\Debug\AppTests.csprojResolveAssemblyReference.cache
+F:\Noot\3_курс_1_семестр\Конструювання Пз\PrismLab_1\AppTests\obj\Debug\AppTests.csproj.CoreCompileInputs.cache

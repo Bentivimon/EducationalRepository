@@ -9,10 +9,12 @@ using PrismLab_1.Model;
 
 namespace PrismLab_1.Managers
 {
-    class AnswerCheckManager : IAnswerCheckManager
+    public class AnswerCheckManager : IAnswerCheckManager
     {
         public Boolean CheckAnswer(String correctAnswer, String userAnswer)
         {
+            correctAnswer = correctAnswer.ToLower();
+            userAnswer = userAnswer.ToLower();
             if (correctAnswer == userAnswer)
                 return true;
             else
